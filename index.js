@@ -28,7 +28,16 @@ function switchOnCharmFromTip(tip) {
   let greeting
 
   switch (tip) {
+    case 'generous' :
+    greeting = 'Thank you so much.'
+    break
 
+    case 'not as generous' :
+    greeting = 'Thank you.'
+    break
+
+    default:
+    greeting = 'Bye.'
   }
   return greeting
 }
