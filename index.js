@@ -2,7 +2,7 @@
 function scuberGreetingForFeet(someValue) {
   let greeting
   if (someValue <= 400) {
-    greeting =
+    greeting = 'This one is on me!'
   }
   return greeting
 }
