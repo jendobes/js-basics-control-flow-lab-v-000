@@ -25,5 +25,10 @@ function ternaryCheckCity(city) {
 }
 
 function switchOnCharmFromTip(tip) {
+  let greeting
 
+  switch (tip) {
+
+  }
+  return greeting
 }
